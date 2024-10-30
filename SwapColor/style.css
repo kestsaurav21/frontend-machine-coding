@@ -15,9 +15,13 @@ body{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
+
+    /* display: flex;
+    flex-wrap: wrap;
+    width: 450px; */
 }
 .box{
-    cursor: pointer;
+    /* cursor: pointer; */
     height: 150px;
     width: 150px;
     border: 1px solid black;
