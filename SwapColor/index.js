@@ -40,18 +40,25 @@ const swapColor = (box) => {
         boxOne = box;
         colorOne = box.style.background;
     }
-    if(counter === 2){
+
+    if (counter === 2){
         boxTwo = box;
         colorTwo = box.style.background;
+
+         //Swap color 
+        
+        boxOne.style.background = colorTwo;
+        boxTwo.style.background = colorOne;
+
+        //Reset
+
+        counter = 0;
+        boxOne = boxTwo = null;
+        colorOne = colorTwo = "";
     }
 
-    //Swap color 
-    boxOne.style.background = colorTwo;
-    boxTwo.style.background = colorOne;
-
-    counter = 0;
-    boxOne = boxTwo = null;
-    colorOne = colorTwo = "";
+   
+    
     
 }
 
