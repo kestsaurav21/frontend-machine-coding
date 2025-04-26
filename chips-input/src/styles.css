@@ -1,0 +1,30 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.input-box {
+  padding: 10px;
+  width: 200px;
+}
+
+.chips-container {
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 20px;
+}
+
+.chip-design {
+  background: #eaf0f1;
+  margin-left: 8px;
+  cursor: pointer;
+  font: bold;
+  border-radius: 40px;
+  padding: 0.5rem;
+}
+
+.remove {
+  color: red;
+}
