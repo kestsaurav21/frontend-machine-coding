@@ -1,0 +1,10 @@
+.App {
+}
+
+button:hover {
+  background: red;
+  color: white;
+}
+
+button:active {
+}
